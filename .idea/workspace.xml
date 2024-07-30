@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b58dc68-51e5-49ea-8f42-c4148b10eb29" name="Changes" comment="first commit">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="5b58dc68-51e5-49ea-8f42-c4148b10eb29" name="Changes" comment="7/29 study">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baekjoonClass2/P4153.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,21 +48,34 @@
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.CTReady_withJava [:P1259.main()].executor": "Run",
+    "Gradle.CTReady_withJava [:P1546.main()].executor": "Run",
+    "Gradle.CTReady_withJava [:P1978.main()].executor": "Run",
+    "Gradle.CTReady_withJava [:P2609.main()].executor": "Debug",
+    "Gradle.CTReady_withJava [:P2798.main()].executor": "Run",
+    "Gradle.CTReady_withJava [:P30802.main()].executor": "Run",
+    "Gradle.CTReady_withJava [:P4153.main()].executor": "Run",
     "Gradle.CTReady_withJava [:P5_5.main()].executor": "Run",
     "Gradle.CTReady_withJava [:PP4.main()].executor": "Run",
+    "Gradle.CTReady_withJava [:Prac.main()].executor": "Run",
     "Gradle.CTReady_withJava [:Pro5_4.main()].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/SSAFY/IdeaProjects/CTReady_withJava/build/classes/java/main/solvedac/class1",
     "onboarding.tips.debug.path": "C:/Users/SSAFY/IdeaProjects/CTReady_withJava/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "settings.sync"
+    "settings.editor.selected.configurable": "configurable.group.build"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SSAFY\IdeaProjects\CTReady_withJava\build\classes\java\main\solvedac\class1" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -80,12 +93,21 @@
       <option name="project" value="LOCAL" />
       <updated>1721720818266</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="7/29 study">
+      <option name="closed" value="true" />
+      <created>1722242560530</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722242560530</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="7/29 study" />
+    <option name="LAST_COMMIT_MESSAGE" value="7/29 study" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -94,6 +116,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/solvedac/class1/P2609.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
