@@ -1,9 +1,6 @@
-package solvedac.class1;
+package solvedac.class2;
 
 import java.io.*;
-import java.net.URISyntaxException;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.StringTokenizer;
 
 public class P2798 {

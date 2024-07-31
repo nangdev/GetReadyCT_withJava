@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b58dc68-51e5-49ea-8f42-c4148b10eb29" name="Changes" comment="7/29 study">
+    <list default="true" id="5b58dc68-51e5-49ea-8f42-c4148b10eb29" name="Changes" comment="7/30 study">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/baekjoonClass2/P4153.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solvedac/class1/P1259.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solvedac/class2/P1259.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solvedac/class1/P1546.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solvedac/class2/P1546.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solvedac/class1/P1978.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solvedac/class2/P1978.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solvedac/class1/P2609.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solvedac/class2/P2609.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solvedac/class1/P2798.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solvedac/class2/P2798.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solvedac/class1/P30802.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solvedac/class2/P30802.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solvedac/class1/P4153.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solvedac/class2/P4153.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solvedac/class1/Prac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solvedac/class2/Prac.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solvedac/class1/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solvedac/class2/input.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +60,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.CTReady_withJava [:Main.main()].executor": "Run",
+    "Gradle.CTReady_withJava [:Main2.main()].executor": "Run",
+    "Gradle.CTReady_withJava [:P11050.main()].executor": "Run",
+    "Gradle.CTReady_withJava [:P1181.main()].executor": "Run",
     "Gradle.CTReady_withJava [:P1259.main()].executor": "Run",
     "Gradle.CTReady_withJava [:P1546.main()].executor": "Run",
     "Gradle.CTReady_withJava [:P1978.main()].executor": "Run",
@@ -101,13 +113,22 @@
       <option name="project" value="LOCAL" />
       <updated>1722242560530</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="7/30 study">
+      <option name="closed" value="true" />
+      <created>1722328831677</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722328831677</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="7/29 study" />
-    <option name="LAST_COMMIT_MESSAGE" value="7/29 study" />
+    <MESSAGE value="7/30 study" />
+    <option name="LAST_COMMIT_MESSAGE" value="7/30 study" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -116,11 +137,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/solvedac/class1/P2609.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

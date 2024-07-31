@@ -1,9 +1,8 @@
-package solvedac.class1;
+package solvedac.class2;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.PipedReader;
 import java.util.StringTokenizer;
 
 public class P30802 {

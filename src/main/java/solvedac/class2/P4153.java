@@ -1,4 +1,4 @@
-package solvedac.class1;
+package solvedac.class2;
 
 import java.io.BufferedReader;
 import java.io.IOException;
