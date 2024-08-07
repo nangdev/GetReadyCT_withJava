@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
 
 public class P10816 {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] argsg) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		// 이거 맵으로 처리하면 될거같은데
