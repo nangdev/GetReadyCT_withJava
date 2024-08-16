@@ -2,8 +2,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class Prac {
 
@@ -11,16 +12,10 @@ public class Prac {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 		List<List<Integer>> arr = new ArrayList<>();
+		List<List<Integer>> arr2 = new ArrayList<>();
 
-		for (int j = 0; j < 3; j++) {
-			arr.add(Arrays.stream(br.readLine().split(" ")).mapToInt(Integer::parseInt).boxed().toList());
-		}
+		Set<Integer> set = new HashSet<>();
 
-		for (int i = 0; i < 3; i++) {
-			for (Integer idx : arr.get(i)) {
-				System.out.print(idx + " ");
-			}
-			System.out.println();
-		}
+		System.out.println(arr);
 	}
 }
