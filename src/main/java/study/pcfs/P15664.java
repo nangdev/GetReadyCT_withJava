@@ -3,9 +3,9 @@ package study.pcfs;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class P15663 {
+public class P15664 {
     static int[] result,input;
-    static boolean[] isSelec;
+
     static int n,m;
     static StringBuilder sb;
 
@@ -16,7 +16,6 @@ public class P15663 {
 
         result = new int[m];
         input = new int[n];
-        isSelec = new boolean[n];
 
         for (int i = 0; i < n; i++) {
             input[i] = sc.nextInt();
@@ -25,11 +24,11 @@ public class P15663 {
         Arrays.sort(input);
 
         sb = new StringBuilder();
-        perm(0);
+        combi(0,0);
         System.out.println(sb);
     }
 
-    static void perm(int cnt){
+    static void combi(int cnt, int start){
         if(cnt == m){
             for (int i = 0; i <m ; i++) {
                 sb.append(result[i]+" ");
@@ -41,13 +40,11 @@ public class P15663 {
         
         int lastUsed = -1;
         
-        for (int i = 0; i < n; i++) {
+        for (int i = start; i < n; i++) {
             
-        	if(!isSelec[i] && input[i] != lastUsed) {
-        		isSelec[i] = true;
+        	if(input[i] != lastUsed) {
         		result[cnt] = input[i];
-        		perm(cnt+1);
-        		isSelec[i] = false;
+        		combi(cnt+1,i+1);
         		lastUsed = input[i];
         	}
 			

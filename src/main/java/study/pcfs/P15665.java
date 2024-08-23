@@ -3,7 +3,7 @@ package study.pcfs;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class P15663 {
+public class P15665 {
     static int[] result,input;
     static boolean[] isSelec;
     static int n,m;
@@ -39,18 +39,15 @@ public class P15663 {
             return;
         }
         
-        int lastUsed = -1;
+        
         
         for (int i = 0; i < n; i++) {
+            if(isSelec[i]) continue;
             
-        	if(!isSelec[i] && input[i] != lastUsed) {
-        		isSelec[i] = true;
-        		result[cnt] = input[i];
-        		perm(cnt+1);
-        		isSelec[i] = false;
-        		lastUsed = input[i];
-        	}
-			
+            isSelec[i] = true;
+            result[cnt] = input[i];
+            perm(cnt+1);
+            isSelec[i] = false;
         }
     }
 }
