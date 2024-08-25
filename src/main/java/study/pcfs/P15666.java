@@ -3,9 +3,9 @@ package study.pcfs;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class P15665 {
-    static int[] result,input;
+public class P15666 {
     static int n,m;
+    static int[] result,input;
     static StringBuilder sb;
 
     public static void main(String[] args) {
@@ -15,38 +15,37 @@ public class P15665 {
 
         result = new int[m];
         input = new int[n];
+        sb = new StringBuilder();
 
         for (int i = 0; i < n; i++) {
             input[i] = sc.nextInt();
         }
-
         Arrays.sort(input);
 
-        sb = new StringBuilder();
-        perm(0);
+        combi(0,0);
         System.out.println(sb);
     }
 
-    static void perm(int cnt){
+    static void combi(int cnt, int start){
         if(cnt == m){
-            for (int i = 0; i <m ; i++) {
-                sb.append(result[i]+" ");
+            for (int i = 0; i < m; i++) {
+                sb.append(result[i]);
+                if(i<m-1){
+                    sb.append(" ");
+                }
             }
-            sb.setLength(sb.length()-1);
             sb.append("\n");
             return;
         }
-        
-        int lastIndex = -1;
-        
-        for (int i = 0; i < n; i++) {
 
-            if(lastIndex != input[i]) {
+        int lastIndex = -1;
+
+        for (int i = start; i < n; i++) {
+            if(input[i] != lastIndex) {
                 result[cnt] = input[i];
-                perm(cnt + 1);
+                combi(cnt + 1, i);
                 lastIndex = input[i];
             }
-
         }
     }
 }
