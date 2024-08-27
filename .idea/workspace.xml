@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b58dc68-51e5-49ea-8f42-c4148b10eb29" name="Changes" comment="8/22 study">
+    <list default="true" id="5b58dc68-51e5-49ea-8f42-c4148b10eb29" name="Changes" comment="8/27 study">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/study/pcfs/P15665.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/pcfs/P15665.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +86,14 @@
       <recent name="C:\Users\SSAFY\IdeaProjects\CTReady_withJava\build\classes\java\main\solvedac\class1" />
     </key>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_392-liberica-1.8.0_392-249ae16d76d6-841b53d9" />
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -151,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724335880956</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="8/27 study">
+      <option name="closed" value="true" />
+      <created>1724763812345</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724763812345</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -162,7 +178,8 @@
     <MESSAGE value="8/1 study" />
     <MESSAGE value="8/6 study" />
     <MESSAGE value="8/22 study" />
-    <option name="LAST_COMMIT_MESSAGE" value="8/22 study" />
+    <MESSAGE value="8/27 study" />
+    <option name="LAST_COMMIT_MESSAGE" value="8/27 study" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
