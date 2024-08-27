@@ -1,0 +1,156 @@
+Index: src/main/java/solvedac/class2/P10816.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package solvedac.class2;\r\n\r\nimport java.io.BufferedReader;\r\nimport java.io.IOException;\r\nimport java.io.InputStreamReader;\r\nimport java.util.Arrays;\r\nimport java.util.StringTokenizer;\r\n\r\npublic class P10816 {\r\n\r\n    public static void main(String[] args) throws IOException {\r\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\r\n        StringTokenizer st = new StringTokenizer(br.readLine());\r\n        // 이거 맵으로 처리하면 될거같은데\r\n        int N = Integer.parseInt(br.readLine());\r\n\r\n        int[] arr = new int[N];\r\n\r\n        st = new StringTokenizer(br.readLine());\r\n        for (int i = 0; i < N; i++) {\r\n            arr[i] = Integer.parseInt(st.nextToken());\r\n        }\r\n\r\n        int M = Integer.parseInt(br.readLine());\r\n        int[] lis = new int[M];\r\n\r\n        st = new StringTokenizer(br.readLine());\r\n        for (int i = 0; i < M; i++) {\r\n            lis[i] = Integer.parseInt(st.nextToken());\r\n        }\r\n\r\n        int[] result = new int[M];\r\n\r\n        for (int i = 0; i < M; i++) {\r\n\r\n        }\r\n\r\n        System.out.println(Arrays.toString(result));\r\n\r\n    }\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/solvedac/class2/P10816.java b/src/main/java/solvedac/class2/P10816.java
+--- a/src/main/java/solvedac/class2/P10816.java	(revision eac3a89c59f8df9a19da7ef12f8b61edfa164fda)
++++ b/src/main/java/solvedac/class2/P10816.java	(date 1722944444375)
+@@ -12,7 +12,7 @@
+         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+         StringTokenizer st = new StringTokenizer(br.readLine());
+         // 이거 맵으로 처리하면 될거같은데
+-        int N = Integer.parseInt(br.readLine());
++        int N = Integer.parseInt(st.nextToken());
+ 
+         int[] arr = new int[N];
+ 
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"5b58dc68-51e5-49ea-8f42-c4148b10eb29\" name=\"Changes\" comment=\"8/6 study\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/solvedac/class2/P10816.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/solvedac/class2/P10816.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ExternalProjectsData\">\r\n    <projectState path=\"$PROJECT_DIR$\">\r\n      <ProjectState />\r\n    </projectState>\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;nangdev&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/nangdev/GetReadyCT_withJava.git&quot;,\r\n    &quot;accountId&quot;: &quot;22a69d75-d555-4983-baa5-12cfcf34469c&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 8\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2jdcrStEC6PydACxsRrIOHRd8e2\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;Gradle.CTReady_withJava [:Main.main()].executor&quot;: &quot;Run&quot;,\r\n    &quot;Gradle.CTReady_withJava [:Main2.main()].executor&quot;: &quot;Run&quot;,\r\n    &quot;Gradle.CTReady_withJava [:P1018.main()].executor&quot;: &quot;Run&quot;,\r\n    &quot;Gradle.CTReady_withJava [:P10814.main()].executor&quot;: &quot;Run&quot;,\r\n    &quot;Gradle.CTReady_withJava [:P11050.main()].executor&quot;: &quot;Run&quot;,\r\n    &quot;Gradle.CTReady_withJava [:P11650.main()].executor&quot;: &quot;Run&quot;,\r\n    &quot;Gradle.CTReady_withJava [:P1181.main()].executor&quot;: &quot;Run&quot;,\r\n    &quot;Gradle.CTReady_withJava [:P11866.main()].executor&quot;: &quot;Run&quot;,\r\n    &quot;Gradle.CTReady_withJava [:P1259.main()].executor&quot;: &quot;Run&quot;,\r\n    &quot;Gradle.CTReady_withJava [:P1546.main()].executor&quot;: &quot;Run&quot;,\r\n    &quot;Gradle.CTReady_withJava [:P1978.main()].executor&quot;: &quot;Run&quot;,\r\n    &quot;Gradle.CTReady_withJava [:P2609.main()].executor&quot;: &quot;Debug&quot;,\r\n    &quot;Gradle.CTReady_withJava [:P2751.main()].executor&quot;: &quot;Run&quot;,\r\n    &quot;Gradle.CTReady_withJava [:P2798.main()].executor&quot;: &quot;Run&quot;,\r\n    &quot;Gradle.CTReady_withJava [:P30802.main()].executor&quot;: &quot;Run&quot;,\r\n    &quot;Gradle.CTReady_withJava [:P4153.main()].executor&quot;: &quot;Run&quot;,\r\n    &quot;Gradle.CTReady_withJava [:P5_5.main()].executor&quot;: &quot;Run&quot;,\r\n    &quot;Gradle.CTReady_withJava [:PP4.main()].executor&quot;: &quot;Run&quot;,\r\n    &quot;Gradle.CTReady_withJava [:Prac.main()].executor&quot;: &quot;Run&quot;,\r\n    &quot;Gradle.CTReady_withJava [:Pro5_4.main()].executor&quot;: &quot;Run&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;master&quot;,\r\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/SSAFY/IdeaProjects/CTReady_withJava/build/classes/java/main/solvedac/class1&quot;,\r\n    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/SSAFY/IdeaProjects/CTReady_withJava/src/main/java/org/example/Main.java&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\SSAFY\\IdeaProjects\\CTReady_withJava\\build\\classes\\java\\main\\solvedac\\class1\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"5b58dc68-51e5-49ea-8f42-c4148b10eb29\" name=\"Changes\" comment=\"\" />\r\n      <created>1721720594900</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1721720594900</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"first commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1721720818266</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1721720818266</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"7/29 study\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1722242560530</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1722242560530</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"7/30 study\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1722328831677</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1722328831677</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"7/31 study\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1722415850091</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1722415850091</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"8/1 study\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1722502237772</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1722502237772</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"8/6 study\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1722903992817</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1722903992817</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"7\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"first commit\" />\r\n    <MESSAGE value=\"7/29 study\" />\r\n    <MESSAGE value=\"7/30 study\" />\r\n    <MESSAGE value=\"7/31 study\" />\r\n    <MESSAGE value=\"8/1 study\" />\r\n    <MESSAGE value=\"8/6 study\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"8/6 study\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>\r\n          <line>13</line>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision eac3a89c59f8df9a19da7ef12f8b61edfa164fda)
++++ b/.idea/workspace.xml	(date 1722944444452)
+@@ -5,6 +5,8 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="5b58dc68-51e5-49ea-8f42-c4148b10eb29" name="Changes" comment="8/6 study">
++      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/main/java/solvedac/class2/P10816.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solvedac/class2/P10816.java" afterDir="false" />
+     </list>
+@@ -50,40 +52,49 @@
+   <component name="ProjectViewState">
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;Gradle.CTReady_withJava [:Main.main()].executor&quot;: &quot;Run&quot;,
+-    &quot;Gradle.CTReady_withJava [:Main2.main()].executor&quot;: &quot;Run&quot;,
+-    &quot;Gradle.CTReady_withJava [:P1018.main()].executor&quot;: &quot;Run&quot;,
+-    &quot;Gradle.CTReady_withJava [:P10814.main()].executor&quot;: &quot;Run&quot;,
+-    &quot;Gradle.CTReady_withJava [:P11050.main()].executor&quot;: &quot;Run&quot;,
+-    &quot;Gradle.CTReady_withJava [:P11650.main()].executor&quot;: &quot;Run&quot;,
+-    &quot;Gradle.CTReady_withJava [:P1181.main()].executor&quot;: &quot;Run&quot;,
+-    &quot;Gradle.CTReady_withJava [:P11866.main()].executor&quot;: &quot;Run&quot;,
+-    &quot;Gradle.CTReady_withJava [:P1259.main()].executor&quot;: &quot;Run&quot;,
+-    &quot;Gradle.CTReady_withJava [:P1546.main()].executor&quot;: &quot;Run&quot;,
+-    &quot;Gradle.CTReady_withJava [:P1978.main()].executor&quot;: &quot;Run&quot;,
+-    &quot;Gradle.CTReady_withJava [:P2609.main()].executor&quot;: &quot;Debug&quot;,
+-    &quot;Gradle.CTReady_withJava [:P2751.main()].executor&quot;: &quot;Run&quot;,
+-    &quot;Gradle.CTReady_withJava [:P2798.main()].executor&quot;: &quot;Run&quot;,
+-    &quot;Gradle.CTReady_withJava [:P30802.main()].executor&quot;: &quot;Run&quot;,
+-    &quot;Gradle.CTReady_withJava [:P4153.main()].executor&quot;: &quot;Run&quot;,
+-    &quot;Gradle.CTReady_withJava [:P5_5.main()].executor&quot;: &quot;Run&quot;,
+-    &quot;Gradle.CTReady_withJava [:PP4.main()].executor&quot;: &quot;Run&quot;,
+-    &quot;Gradle.CTReady_withJava [:Prac.main()].executor&quot;: &quot;Run&quot;,
+-    &quot;Gradle.CTReady_withJava [:Pro5_4.main()].executor&quot;: &quot;Run&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/Users/SSAFY/IdeaProjects/CTReady_withJava/build/classes/java/main/solvedac/class1&quot;,
+-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/SSAFY/IdeaProjects/CTReady_withJava/src/main/java/org/example/Main.java&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "Gradle.CTReady_withJava [:Main.main()].executor": "Run",
++    "Gradle.CTReady_withJava [:Main2.main()].executor": "Run",
++    "Gradle.CTReady_withJava [:P1018.main()].executor": "Run",
++    "Gradle.CTReady_withJava [:P10814.main()].executor": "Run",
++    "Gradle.CTReady_withJava [:P11050.main()].executor": "Run",
++    "Gradle.CTReady_withJava [:P11650.main()].executor": "Run",
++    "Gradle.CTReady_withJava [:P1181.main()].executor": "Run",
++    "Gradle.CTReady_withJava [:P11866.main()].executor": "Run",
++    "Gradle.CTReady_withJava [:P1259.main()].executor": "Run",
++    "Gradle.CTReady_withJava [:P1546.main()].executor": "Run",
++    "Gradle.CTReady_withJava [:P1978.main()].executor": "Run",
++    "Gradle.CTReady_withJava [:P2609.main()].executor": "Debug",
++    "Gradle.CTReady_withJava [:P2751.main()].executor": "Run",
++    "Gradle.CTReady_withJava [:P2798.main()].executor": "Run",
++    "Gradle.CTReady_withJava [:P30802.main()].executor": "Run",
++    "Gradle.CTReady_withJava [:P4153.main()].executor": "Run",
++    "Gradle.CTReady_withJava [:P5_5.main()].executor": "Run",
++    "Gradle.CTReady_withJava [:PP4.main()].executor": "Run",
++    "Gradle.CTReady_withJava [:Prac.main()].executor": "Run",
++    "Gradle.CTReady_withJava [:Pro5_4.main()].executor": "Run",
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "git-widget-placeholder": "master",
++    "kotlin-language-version-configured": "true",
++    "last_opened_file_path": "C:/Users/SSAFY/IdeaProjects/CTReady_withJava/build/classes/java/main/solvedac/class1",
++    "onboarding.tips.debug.path": "C:/Users/SSAFY/IdeaProjects/CTReady_withJava/src/main/java/org/example/Main.java",
++    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+   }
+-}</component>
++}]]></component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="C:\Users\SSAFY\IdeaProjects\CTReady_withJava\build\classes\java\main\solvedac\class1" />
+     </key>
++  </component>
++  <component name="SharedIndexes">
++    <attachedChunks>
++      <set>
++        <option value="jdk-18.0.2-corretto-18.0.2-4caba194b151-5720f15e" />
++        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
++      </set>
++    </attachedChunks>
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_17\" default=\"true\" project-jdk-name=\"liberica-17\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision eac3a89c59f8df9a19da7ef12f8b61edfa164fda)
++++ b/.idea/misc.xml	(date 1722943956748)
+@@ -1,7 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ExternalStorageConfigurationManager" enabled="true" />
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="liberica-17" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_18" project-jdk-name="corretto-18" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"GradleMigrationSettings\" migrationVersion=\"1\" />\r\n  <component name=\"GradleSettings\">\r\n    <option name=\"linkedExternalProjectsSettings\">\r\n      <GradleProjectSettings>\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"gradleHome\" value=\"\" />\r\n        <option name=\"modules\">\r\n          <set>\r\n            <option value=\"$PROJECT_DIR$\" />\r\n          </set>\r\n        </option>\r\n      </GradleProjectSettings>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/gradle.xml b/.idea/gradle.xml
+--- a/.idea/gradle.xml	(revision eac3a89c59f8df9a19da7ef12f8b61edfa164fda)
++++ b/.idea/gradle.xml	(date 1722943944278)
+@@ -5,7 +5,7 @@
+     <option name="linkedExternalProjectsSettings">
+       <GradleProjectSettings>
+         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+-        <option name="gradleHome" value="" />
++        <option name="gradleJvm" value="corretto-18" />
+         <option name="modules">
+           <set>
+             <option value="$PROJECT_DIR$" />
