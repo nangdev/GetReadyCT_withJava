@@ -7,6 +7,7 @@ import java.util.StringTokenizer;
 
 public class P1018 {
     public static void main(String[] args) throws IOException {
+    	
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
         int N = Integer.parseInt(st.nextToken());
@@ -30,9 +31,11 @@ public class P1018 {
                         if(map[k].charAt(l) != c){
                             cnt++;
                         }else{
+                        	
                             c = c =='W'?'B':'W';
                         }
                     }
+                    c = c =='W'?'B':'W';
                 }
                 result = result > cnt ? cnt : result;
             }

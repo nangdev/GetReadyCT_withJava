@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b58dc68-51e5-49ea-8f42-c4148b10eb29" name="Changes" comment="8/6 study">
+    <list default="true" id="5b58dc68-51e5-49ea-8f42-c4148b10eb29" name="Changes" comment="8/22 study">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/solvedac/class2/P10816.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solvedac/class2/P10816.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/pcfs/P15665.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/pcfs/P15665.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +72,7 @@
     &quot;Gradle.CTReady_withJava [:PP4.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.CTReady_withJava [:Prac.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.CTReady_withJava [:Pro5_4.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
@@ -142,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722903992817</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="8/22 study">
+      <option name="closed" value="true" />
+      <created>1724335880956</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724335880956</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -152,7 +161,8 @@
     <MESSAGE value="7/31 study" />
     <MESSAGE value="8/1 study" />
     <MESSAGE value="8/6 study" />
-    <option name="LAST_COMMIT_MESSAGE" value="8/6 study" />
+    <MESSAGE value="8/22 study" />
+    <option name="LAST_COMMIT_MESSAGE" value="8/22 study" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
