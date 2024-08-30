@@ -1,98 +1,104 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.StringTokenizer;
 
 public class P17135 {
-    static int n,m,d,result = 0, killidx = 0;
-    static int[][] arr;
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());
+	static int n, m, d, result = 0, killidx = 0;
+	static int[][] arr;
+	static int[][] game;
 
-        n = Integer.parseInt(st.nextToken());
-        m = Integer.parseInt(st.nextToken());
-        d = Integer.parseInt(st.nextToken());
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine());
 
-        arr = new int[n+1][m];
+		n = Integer.parseInt(st.nextToken());
+		m = Integer.parseInt(st.nextToken());
+		d = Integer.parseInt(st.nextToken());
 
-        for (int i = 0; i <n ; i++) {
-            st = new StringTokenizer(br.readLine());
-            for (int j = 0; j <m ; j++) {
-                arr[i][j] = Integer.parseInt(st.nextToken());
-            }
-        }
+		arr = new int[n][m];
+		game = new int[n][m];
+		for (int i = 0; i < n; i++) {
+			st = new StringTokenizer(br.readLine());
+			for (int j = 0; j < m; j++) {
+				arr[i][j] = Integer.parseInt(st.nextToken());
+			}
+		}
 
-        for (int i = 0; i < n; i++) {
-            kill();
+		int answer = 0;
 
-            nextGame();
-        }
+		for (int i = 0; i < m - 2; i++) {
+			for (int j = i + 1; j < m - 1; j++) {
+				for (int k = j + 1; k < m; k++) {
+					newMap();
+					result = 0;
+					for (int l = 0; l < n; l++) {
+						kill(i, j, k);
 
-        System.out.println(result);
+						nextTurn();
+					}
+					answer = Math.max(answer, result);
+				}
+			}
+		}
 
-    }
+		System.out.println(answer);
 
-    static void nextGame(){
-        for (int i = 0; i < n-1; i++) {
-            arr[i+1] = arr[i].clone();
-        }
+	}
 
-        for (int i = 0; i < m; i++) {
-            arr[0][m] = 0;  // ì²«ë²ˆì§¸ í–‰ ì´ˆê¸°í™” í•˜ë‚˜ì”© ë°€ì—ˆìœ¼ë‹ˆ
-            arr[n][m] = 0;  // ë§ˆì§€ë§‰ í–‰ ì´ˆê¸°í™” ì„± ìžˆëŠ” ê³³
-        }
+	static void newMap() {
+		for (int i = 0; i < n; i++) {
+			game[i] = arr[i].clone();
+		}
+	}
 
-        killidx++;
-    }
+	static void nextTurn() {
+		for (int i = n - 1; i > 0; i--) {
+			game[i] = game[i - 1].clone();
+		}
 
-    static void kill(){
-        int a,b,c;
+		for (int i = 0; i < m; i++) {
+			game[0][i] = 0; // Ã¹¹øÂ° Çà ÃÊ±âÈ­ ÇÏ³ª¾¿ ¹Ð¾úÀ¸´Ï
+		}
 
-        for (int i = 0; i < m-2; i++) {
-            for (int j = i+1; j < m-1; j++) {
-                for (int k = j+1; k < m; k++) {
-                    a = i;
-                    b = j;
-                    c = k;
+	}
 
-                    for (int l = n-1; l > killidx; l--) {
-                        for (int o = 0; o < m; o++) {
-                            if(arr[l][o] == 1){
-                                int distance = Math.abs(n-l) + Math.abs(a-o);
-                                if(distance <= d){
-                                    result++;
-                                    arr[l][o] = 0;
-                                }
-                            }
-                        }
-                    }
+	static void kill(int a, int b, int c) {
+		boolean flag = false;
+		int[] archer = { a, b, c };
+		Set<int[]> enemy = new HashSet<>();
 
-                    for (int l = n-1; l > killidx; l--) {
-                        for (int o = 0; o < m; o++) {
-                            if(arr[l][o] == 1){
-                                int distance = Math.abs(n-l) + Math.abs(b-o);
-                                if(distance <= d){
-                                    result++;
-                                    arr[l][o] = 0;
-                                }
-                            }
-                        }
-                    }
+		for (int archeridx = 0; archeridx < 3; archeridx++) {
+			int tarX = -1;
+			int tarY = -1;
+			int minDis = Integer.MAX_VALUE;
+			for (int l = n - 1; l > 0; l--) {
+				for (int o = 0; o < m; o++) {
+					if (game[l][o] == 1) {
+						int distance = Math.abs(n - l) + Math.abs(archer[archeridx] - o);
+						if (distance <= d) {
+							if (distance < minDis || (distance == minDis && o < tarY)) {
+								minDis = distance;
+								tarX = l;
+								tarY = o;
+							}
+						}
+					}
+				}
+			}
+			if (tarX != -1) {
+				enemy.add(new int[] { tarX, tarY });
+			}
+		}
 
-                    for (int l = n-1; l > killidx; l--) {
-                        for (int o = 0; o < m; o++) {
-                            if(arr[l][o] == 1){
-                                int distance = Math.abs(n-l) + Math.abs(c-o);
-                                if(distance <= d){
-                                    result++;
-                                    arr[l][o] = 0;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
+		for (int[] e : enemy) {
+			if (game[e[0]][e[1]] == 1) {
+				result++;
+				game[e[0]][e[1]] = 0;
+			}
+		}
+
+	}
 }
