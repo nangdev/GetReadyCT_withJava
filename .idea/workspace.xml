@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b58dc68-51e5-49ea-8f42-c4148b10eb29" name="Changes" comment="8/22 study">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024-08-27__10_01__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024-08-27__10_01__Changes_.xml" afterDir="false" />
+    <list default="true" id="5b58dc68-51e5-49ea-8f42-c4148b10eb29" name="Changes" comment="9/2 study">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/P17135.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/P17135.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/study/implement/SW1767_ProcessorConnect_전승현.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Prac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Prac.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/implement/P14890.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/implement/P14890.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/implement/P15685.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/implement/P15685.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724335880956</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="9/2 study">
+      <option name="closed" value="true" />
+      <created>1725287960257</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1725287960257</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -204,7 +211,8 @@
     <MESSAGE value="8/1 study" />
     <MESSAGE value="8/6 study" />
     <MESSAGE value="8/22 study" />
-    <option name="LAST_COMMIT_MESSAGE" value="8/22 study" />
+    <MESSAGE value="9/2 study" />
+    <option name="LAST_COMMIT_MESSAGE" value="9/2 study" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
