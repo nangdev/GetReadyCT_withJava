@@ -37,7 +37,7 @@ public class P14500 {
                 v[i][j] = true;
                 dfs(i, j, 1, arr[i][j]);
                 v[i][j] = false;
-                chkFuck(i, j);
+//                chkFuck(i, j);
             }
         }
 
@@ -55,6 +55,11 @@ public class P14500 {
             int ny = y + dy[i];
 
             if (nx < 0 || nx >= n || ny < 0 || ny >= m || v[nx][ny]) continue;
+            	if(depth == 2) {
+            		v[nx][ny] = true;
+            		dfs(x,y,depth+1,sum+arr[nx][ny]);
+            		v[nx][ny] = false;
+            	}
 
             v[nx][ny] = true;
             dfs(nx, ny, depth + 1, sum + arr[nx][ny]);
@@ -63,26 +68,26 @@ public class P14500 {
     }
 
 
-    static void chkFuck(int x, int y) {
-        // ㅗ
-        if (x - 1 > 0 && y + 2 < m) {
-            int temp = arr[x][y] + arr[x - 1][y + 1] + arr[x][y + 1] + arr[x][y + 2];
-            result = Math.max(result, temp);
-        }
-        // ㅜ
-        if (x + 1 < n && y + 2 < m) {
-            int temp = arr[x][y] + arr[x + 1][y + 1] + arr[x][y + 1] + arr[x][y + 2];
-            result = Math.max(result, temp);
-        }
-        // ㅏ
-        if (x + 2 < n && y + 1 < m) {
-            int temp = arr[x][y] + arr[x + 1][y] + arr[x + 2][y] + arr[x + 1][y + 1];
-            result = Math.max(result, temp);
-        }
-        // ㅓ
-        if (x + 2 < n && y - 1 > 0) {
-            int temp = arr[x][y] + arr[x + 1][y] + arr[x + 2][y] + arr[x + 1][y - 1];
-            result = Math.max(result, temp);
-        }
-    }
+//    static void chkFuck(int x, int y) {
+//        // ㅗ
+//        if (x - 1 > 0 && y + 2 < m) {
+//            int temp = arr[x][y] + arr[x - 1][y + 1] + arr[x][y + 1] + arr[x][y + 2];
+//            result = Math.max(result, temp);
+//        }
+//        // ㅜ
+//        if (x + 1 < n && y + 2 < m) {
+//            int temp = arr[x][y] + arr[x + 1][y + 1] + arr[x][y + 1] + arr[x][y + 2];
+//            result = Math.max(result, temp);
+//        }
+//        // ㅏ
+//        if (x + 2 < n && y + 1 < m) {
+//            int temp = arr[x][y] + arr[x + 1][y] + arr[x + 2][y] + arr[x + 1][y + 1];
+//            result = Math.max(result, temp);
+//        }
+//        // ㅓ
+//        if (x + 2 < n && y - 1 > 0) {
+//            int temp = arr[x][y] + arr[x + 1][y] + arr[x + 2][y] + arr[x + 1][y - 1];
+//            result = Math.max(result, temp);
+//        }
+//    }
 }
