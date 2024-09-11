@@ -15,7 +15,7 @@ public class P1654 {
 		int k = Integer.parseInt(st.nextToken());
 		int n = Integer.parseInt(st.nextToken());
 
-		int[] arr = new int[k];
+		long[] arr = new long[k];
 
 		for (int i = 0; i < k; i++) {
 			arr[i] = Integer.parseInt(br.readLine());

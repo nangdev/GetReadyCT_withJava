@@ -15,7 +15,7 @@ public class P2805 {
 		int n = Integer.parseInt(st.nextToken());
 		int m = Integer.parseInt(st.nextToken());
 
-		int[] arr = new int[n];
+		long[] arr = new long[n];
 
 		st = new StringTokenizer(br.readLine());
 		for (int i = 0; i < n; i++) {
@@ -24,10 +24,28 @@ public class P2805 {
 
 		Arrays.sort(arr);
 
-		for (int i = 0; i < arr[n - 1]; i++) {
+		long min = 0;
+		long max = arr[n - 1] + 1;
+
+		while (min < max) {
+			long mid = (min + max) / 2;
+
+			long cnt = 0;
+
+			for (int i = 0; i < n; i++) {
+				if (arr[i] - mid > 0)
+					cnt += (arr[i] - mid);
+			}
+
+			if (cnt < m) {
+				max = mid;
+			} else {
+				min = mid + 1;
+			}
 
 		}
 
+		System.out.println(min - 1);
 	}
 
 }
