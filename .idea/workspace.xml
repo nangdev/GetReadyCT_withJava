@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b58dc68-51e5-49ea-8f42-c4148b10eb29" name="Changes" comment="9/2 study">
+    <list default="true" id="5b58dc68-51e5-49ea-8f42-c4148b10eb29" name="Changes" comment="9/7 study">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024-09-02__9_26__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024-09-02_오후_9_26_[Changes]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/binarysearch/P2110.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/binarysearch/P2110.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725377576241</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="9/7 study">
+      <option name="closed" value="true" />
+      <created>1725699695978</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1725699695978</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -217,7 +228,8 @@
     <MESSAGE value="8/6 study" />
     <MESSAGE value="8/22 study" />
     <MESSAGE value="9/2 study" />
-    <option name="LAST_COMMIT_MESSAGE" value="9/2 study" />
+    <MESSAGE value="9/7 study" />
+    <option name="LAST_COMMIT_MESSAGE" value="9/7 study" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
