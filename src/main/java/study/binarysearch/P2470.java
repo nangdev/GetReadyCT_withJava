@@ -21,40 +21,29 @@ public class P2470 {
         }
 
         Arrays.sort(arr);
- 
-        long num1 = arr[0];
-        long num2 = arr[n-1];
-        
-        for (int i = 0; i < n; i++) {
-			long temp1 = arr[i];
-			long temp2 = 0;
-			
-			int min = 0;
-			int max = n;
-			
-			long add = arr[n-2]+num2;
-			
-			while (min < max) {
-				int mid = (min+max)/2;
-				
-				long val = Math.abs(arr[mid]+temp1);
-				
-				if(val < add) {
-					min = mid+1;
-					add = val;
-				}else{
-					max = mid;
-				}
-			}
-			temp2 = arr[min-1];
-        	
-        	if(Math.abs(num1+num2) > Math.abs(temp1+temp2)) {
-        		num1 = temp1;
-        		num2 = temp2;
-        	}
-		}
-        
-        System.out.println(num1 +" "+num2);
-       
+
+        long num1 = 0, num2 = 0;
+
+        int s = 0, e = n - 1;
+        long min = Integer.MAX_VALUE;
+
+        while (s < e) {
+            long sum = arr[s] + arr[e];
+
+            if (min > Math.abs(sum)) {
+                min = Math.abs(sum);
+
+                num1 = arr[s];
+                num2 = arr[e];
+
+                if (sum == 0) break;
+            }
+
+            if (sum < 0) s++;
+            else e--;
+        }
+
+        System.out.println(num1 + " " + num2);
+
     }
 }
