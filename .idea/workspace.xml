@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b58dc68-51e5-49ea-8f42-c4148b10eb29" name="Changes" comment="9/18 study">
+    <list default="true" id="5b58dc68-51e5-49ea-8f42-c4148b10eb29" name="Changes" comment="9/29 study">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/study/binarysearch/P2470.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/binarysearch/P2470.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/progammers_Lv2/P72411.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/progammers_Lv2/P72411.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/binarysearch/P1300.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/binarysearch/P1300.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726678526272</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="9/29 study">
+      <option name="closed" value="true" />
+      <created>1727602584188</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1727602584188</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -245,7 +254,8 @@
     <MESSAGE value="9/7 study" />
     <MESSAGE value="9/11 study" />
     <MESSAGE value="9/18 study" />
-    <option name="LAST_COMMIT_MESSAGE" value="9/18 study" />
+    <MESSAGE value="9/29 study" />
+    <option name="LAST_COMMIT_MESSAGE" value="9/29 study" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
