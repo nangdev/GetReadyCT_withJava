@@ -7,11 +7,8 @@ public class Prac {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-		int x = 150;
-		int y = 130;
+		char[] cs = { 'a', 'b', 'c' };
 
-		int val = (int) Math.floor((((double) y / x) * 100));
-
-		System.out.println(val);
+		System.out.println();
 	}
 }
