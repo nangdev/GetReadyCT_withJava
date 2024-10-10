@@ -1,47 +1,59 @@
 package progammers_Lv2;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 class Solution {
-	static boolean[] v;
-	static List<List<Integer>> lis = new ArrayList<>();
-	static int ans = 1, n, k, lisn;
-	static int[][] arr;
+	static class Point {
+		int to, len;
 
-	public int solution(int N, int[][] road, int K) {
-		n = N;
-		k = K;
-		lisn = road.length;
-		v = new boolean[N + 1];
-		v[1] = true;
-		arr = road;
-		for (int i = 0; i < N; i++) {
-			lis.add(new ArrayList<Integer>());
+		Point(int to, int len) {
+			this.to = to;
+			this.len = len;
 		}
-
-		for (int[] li : road) {
-			lis.get(li[0]).add(li[1]);
-			lis.get(li[1]).add(li[0]);
-		}
-
-		dfs(0, 1, 0);
-
-		return ans;
 	}
 
-	void dfs(int cnt, int cur, int len) {
-		if (len > k) {
+	static List<List<Point>> lis = new ArrayList<>();
+	static Set<Integer> set = new HashSet<>();
+	static int roadlen, n, k;
+	static boolean[] v;
+
+	public int solution(int N, int[][] road, int K) {
+		for (int i = 0; i < N + 1; i++) {
+			lis.add(new ArrayList<Point>());
+		}
+		n = N;
+		k = K;
+		roadlen = road.length;
+
+		v = new boolean[N + 1];
+
+		for (int i = 0; i < roadlen; i++) {
+			lis.get(road[i][0]).add(new Point(road[i][1], road[i][2]));
+			lis.get(road[i][1]).add(new Point(road[i][0], road[i][2]));
+		}
+
+		set.add(1);
+		v[1] = true;
+
+		dfs(1, 0);
+
+		return set.size();
+	}
+
+	static void dfs(int from, int len) {
+		if (len == k) {
 			return;
 		}
 
-		if (cnt == n) {
-			return;
-		}
-
-		for (int i = 0; i < lisn; i++) {
-			if (arr[i][0] == cur && !v[arr[i][1]]) {
-
+		for (Point p : lis.get(from)) {
+			if (!v[p.to] && p.len + len <= k) {
+				set.add(p.to);
+				v[p.to] = true;
+				dfs(p.to, p.len + len);
+				v[p.to] = false;
 			}
 		}
 	}
