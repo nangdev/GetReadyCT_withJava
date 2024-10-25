@@ -31,7 +31,7 @@ public class P1244 {
 		for (int i = 0; i < stunum; i++) {
 
 			if (student[i][0] == 1) {
-				for (int j = 1; j < n; j++) {
+				for (int j = 1; j <= n; j++) {
 					int num = student[i][1] * j - 1;
 					if (num < n) {
 						if (arr[num] == 1) {
@@ -79,6 +79,7 @@ public class P1244 {
 					}
 				}
 			}
+
 		}
 
 		for (int i = 0; i < n; i++) {
