@@ -24,7 +24,7 @@ public class P14890 {
 
 		int result = 0;
 
-		// °¡·Î
+		// ï¿½ï¿½ï¿½ï¿½
 		for (int i = 0; i < n; i++) {
 			boolean chk = false;
 			boolean[] v = new boolean[n];
@@ -36,7 +36,7 @@ public class P14890 {
 						boolean lchk = false;
 						boolean rchk = false;
 
-						if (map[i][j] - cur == 1) { // ³»¸®¸·±æ
+						if (map[i][j] - cur == 1) { // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 							for (int k = j; k < j + l; k++) {
 								if (k >= n || cur != map[i][k] || v[k]) {
@@ -46,7 +46,7 @@ public class P14890 {
 									v[k] = true;
 								}
 							}
-						} else { // ¿À¸£¸·±æ
+						} else { // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 							for (int k = j; k > j - l; k--) {
 								if (k < 0 || cur != map[i][k] || v[k]) {
 									rchk = true;
@@ -84,7 +84,7 @@ public class P14890 {
 			}
 		}
 
-		// ¼¼·Î
+		// ï¿½ï¿½ï¿½ï¿½
 		for (int i = 0; i < n; i++) {
 			boolean chk = false;
 			boolean[] v = new boolean[n];
@@ -95,7 +95,7 @@ public class P14890 {
 						boolean lchk = false;
 						boolean rchk = false;
 
-						if (map[i][j] - cur == 1) { // ÁøÇà¹æÇâ
+						if (map[i][j] - cur == 1) { // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 							for (int k = j; k < j + l; k++) {
 								if (k >= n || cur != map[k][i] || v[k]) {
@@ -105,7 +105,7 @@ public class P14890 {
 									v[k] = true;
 								}
 							}
-						} else { // ¹Ý´ë ¹æÇâ
+						} else { // ï¿½Ý´ï¿½ ï¿½ï¿½ï¿½ï¿½
 							for (int k = j; k > j - l; k--) {
 								if (k < 0 || cur != map[k][i] || v[k]) {
 									rchk = true;
