@@ -11,11 +11,13 @@ public class P13305 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int n = Integer.parseInt(br.readLine());
-        int[] road = new int[n - 1];
-        int[] cost = new int[n];
+        int nmi = n - 1;
+
+        int[] road = new int[nmi];
+        long[] cost = new long[n];
 
         StringTokenizer st = new StringTokenizer(br.readLine());
-        for (int i = 0; i < n - 1; i++) {
+        for (int i = 0; i < nmi; i++) {
             road[i] = Integer.parseInt(st.nextToken());
         }
 
@@ -24,6 +26,21 @@ public class P13305 {
             cost[i] = Integer.parseInt(st.nextToken());
         }
 
+        long res = 0;
+        int idx = 0;
+        int start = 0;
+        while (idx < nmi) {
+            for (int i = start; i < nmi; i++) {
+                if (cost[start] > cost[i]) {
+                    start = idx;
+                    break;
+                } else {
+                    res += cost[start] * road[i];
+                    idx++;
+                }
+            }
+        }
 
+        System.out.println(res);
     }
 }

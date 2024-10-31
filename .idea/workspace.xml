@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b58dc68-51e5-49ea-8f42-c4148b10eb29" name="Changes" comment="9/29 study">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/problem/P13305.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/problem/P13305.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/study/problem/P17266.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/problem/P17266.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +26,12 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CTReady_withJava" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -49,12 +57,12 @@
     &quot;assignee&quot;: &quot;nangdev&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/nangdev/GetReadyCT_withJava.git&quot;,
-    &quot;accountId&quot;: &quot;0f1eb96c-b523-4f50-88ad-daadd11b1f12&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/nangdev/GetReadyCT_withJava.git",
+    "accountId": "1acb553d-d743-4637-8462-155d30e39318"
   }
-}</component>
+}]]></component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
@@ -91,10 +99,15 @@
     "Gradle.CTReady_withJava [:Prac.main()].executor": "Run",
     "Gradle.CTReady_withJava [:Pro5_4.main()].executor": "Run",
     "Gradle.GetReadyCT_withJava [:P17266.main()].executor": "Run",
+    "Gradle.GetReadyCT_withJava [:study.implement.P14499.main()].executor": "Run",
     "Gradle.GetReadyCT_withJava [:study.implement.P14890.main()].executor": "Run",
+    "Gradle.GetReadyCT_withJava [:study.problem.P13305.main()].executor": "Run",
+    "Gradle.GetReadyCT_withJava [:study.problem.P17266.main()].executor": "Run",
+    "Gradle.GetReadyCT_withJava [:study.problem.P20920.main()].executor": "Run",
     "Gradle.GetReadyCT_withJava [:study.problem.P9017.main()].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/ssafy/s1213_algorithm_home",
@@ -108,7 +121,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "advanced.settings",
+    "settings.editor.selected.configurable": "actions.on.save",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -116,26 +129,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\SSAFY\IdeaProjects\CTReady_withJava\build\classes\java\main\solvedac\class1" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="P14499" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="study.implement.P14499" />
-      <module name="CTReady_withJava.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="study.implement.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.P14499" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -159,6 +152,7 @@
       <workItem from="1730295234395" duration="4608000" />
       <workItem from="1730349130220" duration="1299000" />
       <workItem from="1730360946656" duration="870000" />
+      <workItem from="1730374701289" duration="8243000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
