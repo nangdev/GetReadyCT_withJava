@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b58dc68-51e5-49ea-8f42-c4148b10eb29" name="Changes" comment="9/29 study">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/study/implement/P14890.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/implement/P14890.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/study/problem/P9017.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/problem/P9017.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/problem/P17266.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/problem/P17266.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,12 +49,12 @@
     &quot;assignee&quot;: &quot;nangdev&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/nangdev/GetReadyCT_withJava.git",
-    "accountId": "73469fdc-9e4e-4f9a-9424-3f49adae9c2d"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/nangdev/GetReadyCT_withJava.git&quot;,
+    &quot;accountId&quot;: &quot;0f1eb96c-b523-4f50-88ad-daadd11b1f12&quot;
   }
-}]]></component>
+}</component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
@@ -94,13 +90,14 @@
     "Gradle.CTReady_withJava [:PP4.main()].executor": "Run",
     "Gradle.CTReady_withJava [:Prac.main()].executor": "Run",
     "Gradle.CTReady_withJava [:Pro5_4.main()].executor": "Run",
+    "Gradle.GetReadyCT_withJava [:P17266.main()].executor": "Run",
     "Gradle.GetReadyCT_withJava [:study.implement.P14890.main()].executor": "Run",
     "Gradle.GetReadyCT_withJava [:study.problem.P9017.main()].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/jjeon/Desktop/web_sample_12",
+    "last_opened_file_path": "C:/ssafy/s1213_algorithm_home",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -134,17 +131,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.P14499" />
@@ -171,6 +157,8 @@
       <workItem from="1730101747200" duration="353000" />
       <workItem from="1730102241549" duration="742000" />
       <workItem from="1730295234395" duration="4608000" />
+      <workItem from="1730349130220" duration="1299000" />
+      <workItem from="1730360946656" duration="870000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
