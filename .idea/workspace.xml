@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b58dc68-51e5-49ea-8f42-c4148b10eb29" name="Changes" comment="9/29 study">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="5b58dc68-51e5-49ea-8f42-c4148b10eb29" name="Changes" comment="10/30 study">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/study/implement/P14890.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/implement/P14890.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/study/problem/P9017.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/problem/P9017.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,12 +48,12 @@
     &quot;assignee&quot;: &quot;nangdev&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/nangdev/GetReadyCT_withJava.git",
-    "accountId": "73469fdc-9e4e-4f9a-9424-3f49adae9c2d"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/nangdev/GetReadyCT_withJava.git&quot;,
+    &quot;accountId&quot;: &quot;73469fdc-9e4e-4f9a-9424-3f49adae9c2d&quot;
   }
-}]]></component>
+}</component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
@@ -72,49 +67,49 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.CTReady_withJava [:Main.main()].executor": "Run",
-    "Gradle.CTReady_withJava [:Main2.main()].executor": "Run",
-    "Gradle.CTReady_withJava [:P1018.main()].executor": "Run",
-    "Gradle.CTReady_withJava [:P10814.main()].executor": "Run",
-    "Gradle.CTReady_withJava [:P11050.main()].executor": "Run",
-    "Gradle.CTReady_withJava [:P11650.main()].executor": "Run",
-    "Gradle.CTReady_withJava [:P1181.main()].executor": "Run",
-    "Gradle.CTReady_withJava [:P11866.main()].executor": "Run",
-    "Gradle.CTReady_withJava [:P1259.main()].executor": "Run",
-    "Gradle.CTReady_withJava [:P1546.main()].executor": "Run",
-    "Gradle.CTReady_withJava [:P1978.main()].executor": "Run",
-    "Gradle.CTReady_withJava [:P2609.main()].executor": "Debug",
-    "Gradle.CTReady_withJava [:P2751.main()].executor": "Run",
-    "Gradle.CTReady_withJava [:P2798.main()].executor": "Run",
-    "Gradle.CTReady_withJava [:P30802.main()].executor": "Run",
-    "Gradle.CTReady_withJava [:P4153.main()].executor": "Run",
-    "Gradle.CTReady_withJava [:P5_5.main()].executor": "Run",
-    "Gradle.CTReady_withJava [:PP4.main()].executor": "Run",
-    "Gradle.CTReady_withJava [:Prac.main()].executor": "Run",
-    "Gradle.CTReady_withJava [:Pro5_4.main()].executor": "Run",
-    "Gradle.GetReadyCT_withJava [:study.implement.P14890.main()].executor": "Run",
-    "Gradle.GetReadyCT_withJava [:study.problem.P9017.main()].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/jjeon/Desktop/web_sample_12",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/SSAFY/IdeaProjects/CTReady_withJava/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.CTReady_withJava [:Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CTReady_withJava [:Main2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CTReady_withJava [:P1018.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CTReady_withJava [:P10814.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CTReady_withJava [:P11050.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CTReady_withJava [:P11650.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CTReady_withJava [:P1181.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CTReady_withJava [:P11866.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CTReady_withJava [:P1259.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CTReady_withJava [:P1546.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CTReady_withJava [:P1978.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CTReady_withJava [:P2609.main()].executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.CTReady_withJava [:P2751.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CTReady_withJava [:P2798.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CTReady_withJava [:P30802.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CTReady_withJava [:P4153.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CTReady_withJava [:P5_5.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CTReady_withJava [:PP4.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CTReady_withJava [:Prac.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CTReady_withJava [:Pro5_4.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.GetReadyCT_withJava [:study.implement.P14890.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.GetReadyCT_withJava [:study.problem.P9017.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jjeon/Desktop/web_sample_12&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/SSAFY/IdeaProjects/CTReady_withJava/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\SSAFY\IdeaProjects\CTReady_withJava\build\classes\java\main\solvedac\class1" />
@@ -170,7 +165,9 @@
       <workItem from="1729826475677" duration="49000" />
       <workItem from="1730101747200" duration="353000" />
       <workItem from="1730102241549" duration="742000" />
-      <workItem from="1730295234395" duration="4608000" />
+      <workItem from="1730295234395" duration="4637000" />
+      <workItem from="1730815501537" duration="23000" />
+      <workItem from="1730817921610" duration="259000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -276,7 +273,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727602584188</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="10/30 study">
+      <option name="closed" value="true" />
+      <created>1730301637119</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1730301637119</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,7 +300,8 @@
     <MESSAGE value="9/11 study" />
     <MESSAGE value="9/18 study" />
     <MESSAGE value="9/29 study" />
-    <option name="LAST_COMMIT_MESSAGE" value="9/29 study" />
+    <MESSAGE value="10/30 study" />
+    <option name="LAST_COMMIT_MESSAGE" value="10/30 study" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
