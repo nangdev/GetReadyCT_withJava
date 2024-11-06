@@ -4,11 +4,15 @@ import java.io.InputStreamReader;
 
 public class Prac {
 
-	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-		char[] cs = { 'a', 'b', 'c' };
+        char[] cs = {'a', 'b', 'c'};
 
-		System.out.println();
-	}
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < 1000; i++) {
+            sb.append("9");
+        }
+        System.out.println(sb);
+    }
 }
