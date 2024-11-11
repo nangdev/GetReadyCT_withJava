@@ -21,6 +21,13 @@ public class P3758 {
             int id = Integer.parseInt(st.nextToken());
             int m = Integer.parseInt(st.nextToken());
 
+            for (int i = 0; i < m; i++) {
+                st = new StringTokenizer(br.readLine());
+                int a = Integer.parseInt(st.nextToken());
+                int b = Integer.parseInt(st.nextToken());
+                int c = Integer.parseInt(st.nextToken());
+            }
+
         }
     }
 }
